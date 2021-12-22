@@ -62,6 +62,9 @@ export const Home = () => {
             </div>
             <div className="jobs"></div>
         </C.OurJobs>
+        <C.JobsFirst>
+            
+        </C.JobsFirst>
        </div> 
     );
 }
