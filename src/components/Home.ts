@@ -183,6 +183,15 @@ export const Container = styled.div`
             margin-left: -10px;
         }
     }
+    @media ( max-width: 555px) {
+        .title { 
+            font-size: 50px;
+        }
+        .copy {
+            width: 450px;
+            
+        }   
+    }
 
 
     
@@ -346,6 +355,7 @@ export const OurJobs = styled.section`
             margin-top: -1550px;
         }
     }
+   
 `;
 
     
