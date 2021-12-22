@@ -7,7 +7,7 @@ const App = () => {
     <C.Header>
         <C.Container>
             <div className="logo">
-                <a href=""><img src="./src/images/logo_agencia.png" /></a>
+                <a href="/"><img src="./src/images/logo_agencia.png" /></a>
             </div>
           <C.Menu>
             <nav>

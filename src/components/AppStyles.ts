@@ -6,6 +6,7 @@ export const Header = styled.div`
     justify-content:center;
     height:120px;
     position: fixed;
+    z-index: 997;
     background-color:#FFF;
 
     @media (max-width: 1024px) {
