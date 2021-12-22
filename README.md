@@ -3,12 +3,13 @@
 Case da empresa Embracon, onde o objetivo era desenvolver uma interface para uma empresa que está entrando no mercado.
 
 Esse projeto foi criado utilizando ReactJs Vite com TypeScript.
+# O layout do projeto está em: src/images/Agência Maré.pdf
 
 Frameworks utilizados: 
 
-Bootstrap: https://getbootstrap.com/
+ - Bootstrap: https://getbootstrap.com/
 
-Tailwind: https://tailwindcss.com/
+ - Tailwind: https://tailwindcss.com/
 
 Bibliotecas: 
 
