@@ -148,7 +148,7 @@ export const Contato = () => {
             * Campo obrigatório<br /><br />
 
             <div className="button-box">
-              <button  type="submit">Enviar seu contato</button>
+              <button  type="submit">Enviar Solicitação</button>
             </div>
           </form>
         </div>
