@@ -345,10 +345,6 @@ export const OurJobs = styled.section`
             height: 1600px;
             margin-top: -1550px;
         }
-        .logo { 
-            
-        }
-
     }
 `;
 
