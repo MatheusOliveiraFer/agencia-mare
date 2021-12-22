@@ -170,7 +170,20 @@ export const Container = styled.div`
         .copy {
             margin-left: 40px;
         }
+       
     }
+
+    @media ( max-width: 680px) {
+        .title { 
+            font-size: 40px;
+        }
+    }
+    @media ( max-width: 643px) {
+        .copy {
+            margin-left: -10px;
+        }
+    }
+
 
     
 `;
@@ -327,7 +340,16 @@ export const OurJobs = styled.section`
 
         }
     }
-    
+    @media ( max-width: 735px) {
+        .jobs {
+            height: 1600px;
+            margin-top: -1550px;
+        }
+        .logo { 
+            
+        }
+
+    }
 `;
 
     
