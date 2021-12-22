@@ -140,28 +140,39 @@ export const Container = styled.div`
         .seejobs{
             margin-bottom: 40px;
         }
-    
-        @media (max-width: 1256px) {
-            .content-left{
-                background-color: black;
-            }
     }
-    @media (max-width: 768px) {
-        flex-direction: column;
-        margin-top: 100px;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        .title {
+
+    @media (max-width: 1021px) {
+        .copy {
             width: 500px;
-            font-size: 40px;
-            margin-left: -85px; 
+            font-size: 15px;
+            margin-left: 180px;
         }
-        .content-right img {
-            display: none;
-        }
-        
     }
+    @media (max-width: 908px) {
+        .copy {
+            width: 500px;
+            font-size: 15px;
+            margin-left: 90px;
+        }
+    }
+    @media (max-width: 812px) {
+        .title {
+            font-size: 55px;
+        }
+    }
+
+
+    @media (max-width: 745px) {
+        .title {
+            font-size: 50px;
+        }
+        .copy {
+            margin-left: 40px;
+        }
+    }
+
+    
 `;
 
 export const OurJobs = styled.section`
