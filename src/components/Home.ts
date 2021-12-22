@@ -97,7 +97,7 @@ export const Container = styled.div`
             margin-left: 20px;
         }
     }
-    @media(max-width: 1045px) {
+    @media(max-width: 1044px) {
         flex-direction: column;
 
         .content-right img {
