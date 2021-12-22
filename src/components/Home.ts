@@ -86,6 +86,7 @@ export const Container = styled.div`
         }
     }
 
+   
     @media (max-width: 1095px) {
          .contact {
             justify-content: center;
@@ -99,13 +100,30 @@ export const Container = styled.div`
     }
     @media(max-width: 1044px) {
         flex-direction: column;
-
+        text-align: center;
+        .content-right {
+            width: 100%;
+            
+        }
+        .content-left {
+            width: 100%;
+            
+        }
         .content-right img {
             display: none;
         }
         .title {
-            font-size: 
+            margin-top: 120px;
         }
+        .copy {
+            margin-top: 40px;
+            width: 100%;
+        }
+        .seejobs {
+            margin-top: 40px;
+            margin-left: -110px;
+        }
+        
     }
 
     @media (max-width: 1024px) {
@@ -278,6 +296,17 @@ export const OurJobs = styled.section`
     @media (max-width: 1043px) {
         .jobs-demo {
             padding-left: 0px;
+        }
+        .jobs {
+            margin-top: -700px;
+            height: 700px;
+        }
+    }
+    @media (max-width: 1044px) {
+        margin-top: -100px;
+
+        .content-jobs-title {
+            margin-bottom: 30px;
         }
     }
 
