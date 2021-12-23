@@ -359,6 +359,63 @@ export const OurJobs = styled.section`
    
 `;
 
+export const RecentWorks = styled.section`
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+`;
+export const Title = styled.div`
+    width: 100%;
+    height: 200px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    h1 {
+        font-size: 50px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+`;
+
+export const Morkey = styled.div`
+    width: 100%;
+    height: 550px;
+    background-color: black;
+    display: flex;
+`;
+
+export const WorkImageMorkey = styled.div`
+    flex: 1.4;
+    background-color: green;
+`;
+
+export const WorkContentMorkey = styled.div`
+    flex: 1;
+    background-color: pink;
+`;
+
+export const Adobe = styled.div`
+    width: 100%;
+    height: 550px;
+    background-color: blue;
+    display: flex;
+`;
+
+export const WorkImageAdobe = styled.div`
+     flex: 1;
+     background-color: yellow;
+`;
+
+export const WorkContentAdobe = styled.div`
+     flex: 1;
+     background-color: red;
+`;
+
     
 
 

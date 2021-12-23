@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import * as C from '../components/Home';
 
-
 export const Home = () => {
 
     return(
@@ -63,7 +62,20 @@ export const Home = () => {
             </div>
             <div className="jobs"></div>
         </C.OurJobs>
-        
+        <C.RecentWorks>
+            <C.Title>
+                <h1>Trabalhos Recentes</h1>
+                <h3>Resultados relevantes para clientes e amigos</h3>
+            </C.Title>
+            <C.Morkey>
+                <C.WorkImageMorkey></C.WorkImageMorkey>
+                <C.WorkContentMorkey></C.WorkContentMorkey>
+            </C.Morkey>
+            <C.Adobe>
+                <C.WorkImageAdobe></C.WorkImageAdobe>
+                <C.WorkContentAdobe></C.WorkContentAdobe>
+            </C.Adobe>
+        </C.RecentWorks>
        </div> 
     );
 }
