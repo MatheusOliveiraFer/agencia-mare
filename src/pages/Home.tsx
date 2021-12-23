@@ -3,6 +3,7 @@ import * as C from '../components/Home';
 
 
 export const Home = () => {
+
     return(
        <div>
         <C.Header>

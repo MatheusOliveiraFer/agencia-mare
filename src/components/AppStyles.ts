@@ -88,6 +88,7 @@ export const Menu = styled.div`
         height:3px;
         background-color:#39aae1;
     }
+    
     @media (max-width: 1024px) {
         nav a {
             margin-left: 40px;

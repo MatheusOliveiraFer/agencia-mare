@@ -3,6 +3,8 @@ import * as C from './components/AppStyles';
 import { Link } from 'react-router-dom';
 
 const App = () => {
+  
+  
   return(
     <C.Header>
         <C.Container>
@@ -11,7 +13,7 @@ const App = () => {
             </div>
           <C.Menu>
             <nav>
-            <div className="menuMobile">
+            <div  className="menuMobile">
 					    <div className="mm_line"></div>
 					    <div className="mm_line"></div>
 					    <div className="mm_line"></div>
