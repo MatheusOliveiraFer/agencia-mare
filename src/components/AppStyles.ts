@@ -8,7 +8,7 @@ export const Header = styled.div`
     position: fixed;
     z-index: 997;
     background-color:#FFF;
-
+    
     @media (max-width: 1024px) {
         .logo {
             width: 170px;
@@ -67,7 +67,9 @@ export const Menu = styled.div`
         padding: 15px;
         color:#000;
         font-family: 'PT Serif', serif;
-        font-size: 16px;    
+        font-size: 18px;
+        text-shadow: 0.1em 0.1em 0.2em #CCC;
+        letter-spacing: .2rem;    
         &:hover {
             text-decoration: underline;
             background-color: #727272;

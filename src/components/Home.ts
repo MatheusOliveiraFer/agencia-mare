@@ -25,6 +25,7 @@ export const Container = styled.div`
         font-size: 90px;
         font-family: 'PT Serif', serif;
         line-height: 80px;
+        text-shadow: 0.1em 0.1em 0.2em rgb(109, 101, 101);
     }
     .copy {
         width:  500px;
@@ -46,6 +47,8 @@ export const Container = styled.div`
     .content-right img {
         width: 90%;
         /* height: 70%; */
+        border-radius: 5px;
+        box-shadow: 2px 5px 8px #606266;
     }
     .contact {
         diplay: flex;
@@ -368,7 +371,6 @@ export const RecentWorks = styled.section`
 export const Title = styled.div`
     width: 100%;
     height: 200px;
-    background-color: orange;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -390,13 +392,15 @@ export const Morkey = styled.div`
 `;
 
 export const WorkImageMorkey = styled.div`
-    flex: 1.4;
+    flex: 1.3;
     background-color: green;
 `;
 
 export const WorkContentMorkey = styled.div`
     flex: 1;
-    background-color: pink;
+    background-image: url('./src/images/mockup.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
 `;
 
 export const Adobe = styled.div`
