@@ -131,8 +131,9 @@ export const Container = styled.div`
             font-size: 60px;
         }
         .copy {
-            width: 350px;
+            width: 400px;
             font-size: 15px;
+            margin-left: 220px;
         }
         .content-right img {
             margin-top: 100px;

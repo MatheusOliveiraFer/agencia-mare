@@ -38,13 +38,18 @@ export const Container = styled.div`
             height: 50px;
         }
     }
+    @media (max-width: 1024px) {
+        .logo { 
+            margin: 60px;
+        }
+    }
     
 `;
 
 export const Menu = styled.div`
     display: flex;
     align-items: center;
-    
+
     nav ul,
     nav li {
         list-style: none;
@@ -88,12 +93,18 @@ export const Menu = styled.div`
             margin-left: 40px;
         }
     }
+    @media (max-width: 967px) {
+       
+        nav a {
+            padding-left: 20px;
+        }
+    }
     @media (max-width: 768px) {
         nav a {
             margin-left: 20px;
         }
     }
-    @media (max-width: 425px){
+    @media (max-width: 880px){
         nav ul {
             flex-direction: column;
             display:none;
